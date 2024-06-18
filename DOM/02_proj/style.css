@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure full height of the page */
+body {
+    height: 100vh;
+}
+
+/* Flex container for color boxes */
+.color-hover {
+    display: flex;
+}
+
+/* Color boxes */
+.color {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    margin: 10px; /* Adjust spacing between boxes as needed */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Individual color styles */
+.red {
+    background-color: red;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: pink;
+}
+
+/* Center the center div */
+.center {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
